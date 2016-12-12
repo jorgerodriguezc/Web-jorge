@@ -1,0 +1,563 @@
+    <!DOCTYPE html>
+	<html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portafolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-social.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css">
+        <link type="text/css" href="css/animate.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link type="text/css" href="bootstrap/css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.mod.css">
+        <link href="css/demo.css" type="text/css" rel="stylesheet">
+        <link href="css/jquery.gridder.min.css" type="text/css" rel="stylesheet">
+        <link href="css/jquery.gridder.min.css.map" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="reproducto- videos/amazingslider-1.css">
+        <link type="text/css" href="css/portadacss.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="reproductor-audio/initaudioplayer-1.css">
+        <link rel="stylesheet" type="text/css" href="contenido-slide/amazingslider-1.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+        <script>
+        function myFunction() {
+            var myVar;
+            myVar = setTimeout(myFunction, 3000);
+            document.getElementById("loader").style.display = "none";
+        }
+        </script>
+	    <script><!-- SCRIPT FUNCION MODAL INICIO -->
+         $(document).ready(function()
+          {
+             $("#mostrarmodal").modal("show");
+          });
+      </script>
+
+		</head>
+       
+        <body onload="myFunction()">
+        
+<!-- MODAL AL INICIAR PAGINAS -->
+   <div class="modal fade container-fluid" id="mostrarmodal"  role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+      
+           <div class="modal-header col-md-5 col-md-offset-3">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3>Bienvenidos Usuarios Tecnológicos</h3>
+           </div>
+           <div class="modal-body col-md-5 col-md-offset-3">
+              <h4 class="text-justify">Deseas aprender más sobre las nuevas tendencias en páginas web, desarrollo de sotfware y mantenimiento de hardware, siguenos en nuestras redes sociales</h4>
+              <div class="modalicon center-block"><a href="https://twitter.com/georgejerc" class="btn btn-block btn-social btn-twitter"><span class="fa fa-twitter"></span> Iniciar sesión con Twitter</a></div>
+              <div class="modalicon center-block"><a href="https://www.facebook.com/georgejerc" class="btn btn-block btn-social btn-facebook"><span class="fa fa-facebook"></span>Iniciar sesión con Facebook</a></div>
+              <div class="modalicon center-block"><a href="https://www.instagram.com/georgejerc/" class="btn btn-block btn-social btn-instagram"><span class="fa fa-instagram"></span>Iniciar sesión con Instagram</a></div>
+              <div class="modalicon center-block"><a href="https://www.dropbox.com/home" class="btn btn-block btn-social btn-dropbox"><span class="fa fa-dropbox"></span>Iniciar sesión con Dropbox</a></div>
+              <div class="modalicon center-block"><a href="https://plus.google.com/u/0/114356633821929859288" class="btn btn-block btn-social btn-google"><span class="fa fa-google"></span>Iniciar sesión con Google</a></div>
+       </div>
+           <div class="modal-footer col-md-5 col-md-5 col-md-offset-3">
+          <a href="#" data-dismiss="modal" class="btn btn-danger modal-boton">Cerrar</a>
+           <div class="col-md-3" id="preloader_6">
+        </div>
+           </div>
+      </div>
+ <!-- FIN MODAL--> 
+ 
+ <!-- INICIO DE LA BARRA DE NAVEGACION-->
+        <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+            <div class="container ">
+               <div class="col-md-2 col-xs-4" style="margin-left:-80px;">
+                <img src="img/geo.png" class="img-responsive img-rounded jorge center-block animated tada"/>
+                </div>
+                <div class="col-md-2  col-xs-12 center-block">
+                <div class="navbar-header">
+                <a class="navbar-brand text-left hidden-xs navtitle" href="index.html"><strong>Jorge </strong>Rodriguez</a>
+                <button type="button" class="navbar-toggle hidden-sm-up colortoggle btnnav" data-toggle="collapse" data-target=".navbar-collapse">&#9776;
+                    </button>
+                </div>
+                </div>
+                <div class="collapse navbar-collapse" style="width:130%;">
+                <div class="col-md-7 col-sm-12 col-xs-12 center-block">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#wowslider-container0">Inicio</a></li>
+                        <li class="item"><a href="#about">Acerca de</a></li>
+                        <li class="item"><a href="#projects">Proyectos</a></li>
+                        <li class="item"><a href="#social">Social</a></li>
+                        <li class="item"><a href="#formulario">Contactos</a></li>
+                        <li class="item"><a href="#multimedia">Multimedia</a></li>
+                    </ul>
+                 </div>
+                </div>
+               </div>
+            </div>
+ <!-- FIN DE LA BARRA DE NAVEGACION-->
+ 
+<!-- INICIO DEL WOWSlider ANIMACION DE BANNER -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="img/images/banner1.1.png" alt="banner1.1" title="" id="wows0_0"/></li>
+		<li><img src="img/images/banner1.png" alt="banner1" title="" id="wows0_1"/></li>
+		<li><img src="img/images/banner2.png" alt="banner2" title="" id="wows0_2"/></li>
+		<li><img src="img/images/banner3.png" alt="banner3" title="" id="wows0_3"/></li>
+		<li><img src="img/images/banner4.png" alt="banner-4" title="" id="wows0_4"/></li>
+		<li><img src="img/images/banner5.png" alt="banner5" title="" id="wows0_5"/></li>
+		<li><img src="img/images/banner6.png" alt="banner6" title="" id="wows0_6"/></li>
+		<li><a href="http://wowslider.net"><img src="img/images/banner7.png" alt="http://wowslider.net/" title="" id="wows0_7"/></a></li>
+		<li><img src="img/images/sinttulo2.png" alt="Sin-título-2" title="" id="wows0_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="banner1.1"><span><img src="img/tooltips/banner1.1.png" alt="banner1.1"/></span></a>
+		<a href="#" title="banner1"><span><img src="img/tooltips/banner1.png" alt="banner1"/></span></a>
+		<a href="#" title="banner2"><span><img src="img/tooltips/banner2.png" alt="banner2"/></span></a>
+		<a href="#" title="banner3"><span><img src="img/tooltips/banner3.png" alt="banner3"/></span></a>
+		<a href="#" title="banner-4"><span><img src="img/tooltips/banner4.png" alt="banner-4"/></span></a>
+		<a href="#" title="banner5"><span><img src="img/tooltips/banner5.png" alt="banner5"/></span></a>
+		<a href="#" title="banner6"><span><img src="img/tooltips/banner6.png" alt="banner6"/></span></a>
+		<a href="#" title="banner7"><span><img src="img/tooltips/banner7.png" alt="banner7"/></span></a>
+		<a href="#" title="Sin-título-2"><span><img src="img/tooltips/sinttulo2.png" alt="Sin-título-2"/></span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="">/a></div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+<!-- FIN DEL WOWSlider ANIMACION DE BANNER -->
+ 
+<!-- INICIO DEL BLOQUE DE PERFIL PROFESIONAL -->
+        <div id="about" class="content-block content-block-cyan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="content-title animated pulse center-block">
+                    	<p style="color:#Fff">Perfil Profesional</p>
+           			</div>
+                        <p class="text-justify content-block-parraf">La tecnología es parte de mi vida, en la actualidad es necesidad aprender usar un ordenador o dispositivo movil, estamos en una etapa donde la tecnología crece rápidamente y debemos adaptarnos al cambio. Soy Desarrollador Web, también desarrollo programas en Java y Visual Basic, tengo amplios conocimientos sobre sistemas operativos como Windows, Os X, Linux, IOS, Android. Me gusta todo lo relacionado al hacking ético, mantenimiento de Hardware y Sofware ya sea de ordenadores o dispositivos moviles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- FIN DEL BLOQUE DE PERFIL PROFESIONAL -->
+
+<!-- INICIO DEL BLOQUE PROYECTOS RECIENTES -->
+
+        <div id="projects" class="recent-projects">
+            <div class="recent-projects-title animated pulse">
+                <p style="color:#000">Proyectos Recientes</p>
+            </div>
+<!-- INICIO GLERIA DE IMAGENES -->
+		<div class="container-fluid containimg">
+			
+            <ul class="gridder">
+                <li class="gridder-list" data-griddercontent="#gridder-content-1">
+                    <img src="img/JORGE2.1.jpg" class="img-responsive animated rubberBand imgshort img-circle sombra" />
+                    <!--<img src="atras.gif" onclick="history.back()"> -sirve para poner una migane y regresar->
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-2">
+                    <img src="img/LineaGraficaJorgeRodriguez.jpg" class="img-responsive animated flipInX imgshort img-circle sombra" />
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-3">
+                    <img src="img/JORGE3.1.jpg" class="img-responsive animated swing imgshort img-circle sombra" />
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-4">
+                    <img src="img/LineaGraficaJorgeRodrigue21z.jpg" class="img-responsive animated zoomIn imgshort img-circle sombra" />
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-5">
+                    <img src="img/PERSPECTIVAjorgeRodriguezC1.jpg" class="img-responsive animated bounceIn imgshort img-circle sombra" />
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-6">
+                    <img src="img/perspectivaJorgeRodriguez1.jpg" class="img-responsive animated flipInY imgshort img-circle sombra" />
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-7">
+                    <img src="img/Captura.png" class="img-responsive animated bounce imgshort img-circle sombra1" />
+                </li><!--
+                --><li class="gridder-list" data-griddercontent="#gridder-content-8">
+                    <img src="img/metasploit.jpg" class="img-responsive animated rubberBand imgshort img-circle sombra1" />
+                </li>
+                --><li class="gridder-list" data-griddercontent="#gridder-content-9">
+                    <img src="img/kali.jpg" class="img-responsive animated swing imgshort img-circle sombra1" />
+                </li>
+                --><li class="gridder-list" data-griddercontent="#gridder-content-10">
+                    <img src="img/armitage.jpg" class="img-responsive animated flipInY imgshort img-circle sombra1" />
+                </li>
+                --><li class="gridder-list" data-griddercontent="#gridder-content-11">
+                    <img src="img/ettercap.jpg" class="img-responsive animated fadeIn imgshort img-circle sombra1" />
+                </li>
+                --><li class="gridder-list" data-griddercontent="#gridder-content-12">
+                    <img src="img/kali-wireshark.jpg" class="img-responsive animated rubberBand imgshort img-circle sombra1" />
+                </li>
+            </ul>
+<!-- FIN DE GALERIA DE IMAGENES -->
+
+<!-- INICIO DEL CONTENIDO DE LAS IMAGENES -->
+          <div id="gridder-content-1" class="gridder-content">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/JORGE2.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/JORGE2.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Dibujos Abstractos en Illustrator</h2>
+                        <p class="contenido text-justify">Estas imágenes fueron creadas con el programa Illustrator. Este programa posee poderosas herramientas que ayudan a diseñar todo tipo de dibujos vectorizados, haciendo que las imágenes se puedan aumentar y disminuir de tamaño sin perder la calidad.</p>
+                         <p class="contenido text-justify">Las imágenes que se presentan en la galería las desarrollé usando la herramienta buscatrazos y figuras geométricas dando este toque abstracto, también usando diversos colores llanos. Illustrator es el programa mas usado en la actualidad para desarrollar todo tipo de publicidad, banner, flyer, diseños en 3D, logos, línea gráfica, dibujo en perspectiva.</p>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div id="gridder-content-2" class="gridder-content">
+                <div class="row">
+                   <div class="col-sm-6">
+                        <img src="img/LineaGraficaJorgeRodriguez1.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/LineaGraficaJorgeRodriguez1.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Línea Gráfica usando Illustrator</h2>
+                         <p class="contenido text-justify">La línea gráfica es el manejo estandarizado de elementos gráficos, que busca mantener identidad de un proyecto u empresa, Por ejemplo, los productos de Apple tienen un diseño semejante, sin importar que sea un Ipod, una IMac, una MacPro, etc. y sin embargo todas conservan una línea gráfica que los permiten asociar como parte de la misma empresa. </p>
+                        <p class="contenido text-justify">En Illustrator desarrolle la siguiente línea gráfica en utiles de oficina, usando mi logo para representar mi producto. El cliente al ver el logo se asociará rápidamente con el nombre de nuestro producto. La manera más efectiva de captar a un cliente es por medio del sentido de la visión. El objetivo de mi proyecto es demostrar como desarrollar una línea gráfica aceptable para cpatar la atención al cliente.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="gridder-content-3" class="gridder-content">
+                <div class="row">
+                 <div class="col-sm-6">
+                        <img src="img/JORGE3.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/JORGE3.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Dibujos Abstractos en Illustrator</h2>
+                                               <p class="contenido text-justify">Estas imágenes fueron creadas con el programa Illustrator. Este programa posee poderosas herramientas que ayudan a diseñar todo tipo de dibujos vectorizados, haciendo que las imágenes se puedan aumentar y disminuir de tamaño sin perder la calidad.</p>
+                         <p class="contenido text-justify">Las imágenes que se presentan en la galería las desarrollé usando la herramienta buscatrazos y figuras geométricas dando este toque abstracto, también usando diversos colores degradados. Illustrator es el programa mas usado en la actualidad para desarrollar todo tipo de publicidad, banner, flyer, diseños en 3D, logos, línea gráfica, dibujo en perspectiva.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="gridder-content-4" class="gridder-content">
+                <div class="row">
+ 						<div class="col-sm-6">
+                        <img src="img/LineaGraficaJorgeRodrigue2z.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/LineaGraficaJorgeRodrigue2z.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Línea Gráfica usando Illustrator</h2>
+                         <p class="contenido text-justify">La línea gráfica es el manejo estandarizado de elementos gráficos, que busca mantener identidad de un proyecto u empresa, Por ejemplo, los productos de Apple tienen un diseño semejante, sin importar que sea un Ipod, una IMac, una MacPro, etc. y sin embargo todas conservan una línea gráfica que los permiten asociar como parte de la misma empresa. </p>
+                        <p class="contenido text-justify">En Illustrator desarrolle la siguiente línea gráfica en utiles escolares, usando mi logo para representar mi producto. El cliente al ver el logo se asociará rápidamente con el nombre de nuestro producto. La manera más efectiva de captar a un cliente es por medio del sentido de la visión. El objetivo de mi proyecto es demostrar como desarrollar una línea gráfica aceptable para cpatar la atención al cliente.</p>
+                    </div>
+                </div>
+            </div>
+              <div id="gridder-content-5" class="gridder-content">
+                <div class="row">
+                     <div class="col-sm-6">
+                        <img src="img/PERSPECTIVAjorgeRodriguezC.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/PERSPECTIVAjorgeRodriguezC.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Dibujo en perspectiva usando Illustrator</h2>
+                        <p class="contenido text-justify">En Illustrator, puede dibujar o interpretar fácilmente ilustraciones en perspectiva con un conjunto de opciones que funcionan según las normas de dibujo en perspectiva establecidas. La cuadrícula de perspectiva le permite representar aproximadamente una escena en una superficie plana de la misma forma en la que el ojo humano la percibe naturalmente. Por ejemplo, una carretera o vías de ferrocarril que parecen encontrarse o desaparecer en la línea de visión.</p>
+                        <p class="contenido text-justify">.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="gridder-content-6" class="gridder-content">
+                <div class="row">
+                   <div class="col-sm-6">
+                        <img src="img/perspectivaJorgeRodriguez.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/perspectivaJorgeRodriguez.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Dibujo en perspectiva usando Illustrator</h2>
+                        <p class="contenido text-justify">En Illustrator, puede dibujar o interpretar fácilmente ilustraciones en perspectiva con un conjunto de opciones que funcionan según las normas de dibujo en perspectiva establecidas. La cuadrícula de perspectiva le permite representar aproximadamente una escena en una superficie plana de la misma forma en la que el ojo humano la percibe naturalmente. Por ejemplo, una carretera o vías de ferrocarril que parecen encontrarse o desaparecer en la línea de visión.</p>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="gridder-content-7" class="gridder-content">
+                <div class="row">
+                   <div class="col-sm-6">
+                        <img src="img/Captura.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="https://georgeweb.000webhostapp.com/index.html" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Ver página web</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Página Web Guayaquil es tu destino</h2>
+                        <p class="contenido text-justify">El proyecto de Guayaquil es tu destino es una página web desarrollada con HTML5, CSS3. Esta página tiene como objetivo mostrar a los usuarios los puntos mas relevantes de la ciudad de Guayaquil, lugares turisticos, costumbres, clima, gastronomía, su población, creencias, flora y fauna.</p>
+                        <p class="contenido text-justify">Guayaquil tu destino esta compuesta por 5 páginas enlazadas entre si dando ese toque interactivo con el usuario, tenemos una galería de imagenes con animaciones, eventos en el cual se informa a la comunidad todo lo que se va a desarrollar en las festividades. Esta página es netamente informativa. </p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="gridder-content-8" class="gridder-content">
+                <div class="row">
+                   <div class="col-sm-6">
+                        <img src="img/metasploit1.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/metasploit1.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Explotar las vulnerabilidades con Metasploit</h2>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+                    </div>
+                </div>
+            </div>
+             <div id="gridder-content-9" class="gridder-content">
+                <div class="row">
+                     <div class="col-sm-6">
+                        <img src="img/kali1.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/kali1.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Realizar ataques de ingeniería social con Setoolkit</h2>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+                    </div>
+                </div>
+            </div>
+             <div id="gridder-content-10" class="gridder-content">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/armitage1.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/armitage1.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Automatizando los ataques de metasploit usando Armitage</h2>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+                    </div>
+                </div>
+            </div>
+             <div id="gridder-content-11" class="gridder-content">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/ettercap1.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/ettercap1.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Capturando el tráfico de red con Ettercap</h2>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+
+                    </div>
+                </div>
+            </div>
+             <div id="gridder-content-12" class="gridder-content">
+                <div class="row">
+                   <div class="col-sm-6">
+                        <img src="img/kali-wireshark1.jpg" class="img-responsive center-block img-rounded" />
+                        <a href="img/kali-wireshark1.jpg" download="Banner1" class="descarga">
+                        <button type="button" value="Descargar" class="btn btn-info center-block btndescargar">Descargar</button>
+                        </a>  
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="titulosimg">Analizando el tráfico de red con Wireshark</h2>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+                        <p class="contenido text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
+             </div>
+          </div>
+       </div>   
+    </div>
+</div>
+<!-- FIN DEL CONTENIDO DE LAS IMAGENES -->
+<!-- FIN DEL BLOQUE PROYECTOS RECIENTES -->
+
+<!-- INICIO DEL BLOQUE MULTIMEDIA -->
+<!-- INICIO DEL BLOQUE AUDIO -->
+        <div id="multimedia">
+            <div class="recent-projects-title  multi" style="opacity: 0.9; filter: alpha(opacity=100); background-color:#000000">
+                <p style="color:#FFF">Multimedia</p>
+            </div>
+            </div>
+<div class="container-fluid">
+<div class="row" style="background-color:#000000; opacity: 0.9; filter: alpha(opacity=100);">
+	<div class="col-md-3 col-xs-1" style="height:530px; margin-left:50px; margin-top:30px;">
+     <div id="amazingaudioplayer-1" style="display:block;position:relative;width:400px;height:100px;margin:0px auto 0px;">
+        <ul class="amazingaudioplayer-audios" style="display:none;">
+            <li data-artist="AC DC" data-title="AC DC Back in Black - The Best Music" data-album="" data-info="" data-image="canciones-videos/ac_dc_black_by_meromex_102.png" data-duration="256">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/AC DC Back in Black.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Deep Purple" data-title="Deep Purple - Perfect Strangers - Destroy" data-album="" data-info="" data-image="canciones-videos/deep-purple-logo.png" data-duration="322">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Deep Purple - Perfect Strangers.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Iron Maiden" data-title="Iron Maiden - The Trooper - The Best Music" data-album="" data-info="" data-image="canciones-videos/NrBriBm.png" data-duration="252">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Iron Maiden - The Trooper.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Jimi Hendrix" data-title="Jimi Hendrix Cocaine - Rave/trip" data-album="" data-info="" data-image="canciones-videos/829870Voodoo_Child___Jimi_Hendrix_by_yorkey_sa.jpg" data-duration="186">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Jimi Hendrix Cocaine.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Korn" data-title="Korn - Got The Life - The Best Music" data-album="" data-info="" data-image="canciones-videos/oaSmPNz.png" data-duration="247">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Korn - Got The Life.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Led Zeppelin" data-title="Led Zeppelin - All My Love HIGHQUALITY" data-album="" data-info="" data-image="canciones-videos/led_zeppelin_logo_by_w00den_sp00n.jpg" data-duration="510">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Led Zeppelin - All My Love HIGHQUALITY.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Metallica" data-title="Metallica-Master Of Puppets - Destroy" data-album="" data-info="" data-image="canciones-videos/Metallica-logo-wallpaper-438807.png" data-duration="517">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Metallica-Master Of Puppets.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="NIrvana" data-title="Nirvana  Come As You Are - Trash Metal" data-album="" data-info="" data-image="canciones-videos/Nirvana-Wallpaper.png" data-duration="256">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Nirvana  Come As You Are.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Pink Floyd" data-title="PINK FLOYD - ANOTHER BRICK IN THE WALL" data-album="" data-info="" data-image="canciones-videos/Pink_Floyd_wallpaper_13.png" data-duration="354">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/PINK FLOYD - ANOTHER BRICK IN THE WALL.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Queen" data-title="Queen - Another One Bites The Dust" data-album="" data-info="" data-image="canciones-videos/583_queen_logo_l.png" data-duration="218">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/Queen - Another One Bites The Dust.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="The Doors" data-title="The Doors - Roadhouse Blues - Lizard K." data-album="" data-info="" data-image="canciones-videos/thedoors-315773.png" data-duration="281">
+                <div class="amazingaudioplayer-source" data-src="canciones-videos/The Doors - Roadhouse Blues.mp3" data-type="audio/mpeg" />
+            </li>
+        </ul>
+    </div>          
+    </div>
+
+<!-- FIN DEL BLOQUE AUDIO -->
+
+<!-- INICIO DEL BLOQUE VIDEO -->
+   <div class="col-md-8 col-xs-6" style="margin-left:50px;margin-top:30px;" >
+  <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:750px;margin:0px auto 95px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><a href="canciones-videos/Avicii%20-%20Fade%20Into%20Darkness%20%28Official%20Music%20Video%29%20%5BHD%5D%20-%20YouTube.MP4" class="html5lightbox"><img src="canciones-videos/Buddha-DJ.jpg" alt="Avicii - Fade Into Darkness (Official Music Video) [HD]" /></a>
+                </li>
+                <li><a href="canciones-videos/Avicii%20-%20Levels%20-%20YouTube.MP4" class="html5lightbox"><img src="canciones-videos/imgb.jpg" alt="Avicii" /></a>
+                </li>
+                <li><a href="canciones-videos/Calvin%20Harris%20-%20Blame%20ft.%20John%20Newman%20-%20YouTube.MP4" class="html5lightbox"><img src="canciones-videos/imgb2.jpg" alt="Calvin Harris - Blame ft. John Newman" /></a>
+                </li>
+                <li><a href="canciones-videos/Calvin%20Harris%20-%20Feel%20So%20Close%20-%20YouTube.MP4" class="html5lightbox"><img src="canciones-videos/imgb3.jpg" alt="Calvin Harris - Feel So Close -" /></a>
+                </li>
+                <li><a href="canciones-videos/David%20Guetta%20-%20She%20Wolf%20%28Falling%20To%20Pieces%29%20ft.%20Sia%20%28Official%20Video%29%20-%20YouTube.MP4" class="html5lightbox"><img src="canciones-videos/imgb4.jpg" alt="David Guetta - She Wolf (Falling To Pieces) ft. Sia (Official Video) - YouTube" /></a>
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="canciones-videos/Buddha-DJ-tn.jpg" alt="Avicii - Fade Into Darkness (Official Music Video) [HD]" /></li>
+                <li><img src="canciones-videos/imgb-tn.jpg" alt="Avicii" /></li>
+                <li><img src="canciones-videos/imgb2-tn.jpg" alt="Calvin Harris - Blame ft. John Newman" /></li>
+                <li><img src="canciones-videos/imgb3-tn.jpg" alt="Calvin Harris - Feel So Close -" /></li>
+                <li><img src="canciones-videos/imgb4-tn.jpg" alt="David Guetta - She Wolf (Falling To Pieces) ft. Sia (Official Video) - YouTube" /></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+<!-- FIN DEL BLOQUE VIDEO -->
+<!-- FIN DEL BLOQUE MULTIMEDIA -->
+   
+<!-- INICIO DEL BLOQUE CONTACTO -->
+    <div id="formulario" class="container content-redes">
+     <video id="video1" loop autoplay muted="muted" preload poster="images/poster.png">
+		<source src="video-fondo/Seguridad Informática - YouTube.mp4" type="video/mp4" />
+	</video>
+    	<div class="row"  style="background-color:rgba(236, 240, 241, 1);opacity: 0.8; filter: alpha(opacity=100);">
+            <div class="recent-projects-title  multi" style="background-color:rgba(236, 240, 241, 1)">
+               <p style="color:#00B3B3">Contáctenos</p>
+     </div>
+        	<div class="col-md-6 col-xs-12">
+            <p class="text-justify parraficon2" style="margin-left:50px;">Envíenos sus comentarios o pedidos, estamos</br> gustosos de atenderle.</p>
+             <form class=" center-block" action="enviar.php" method="post">
+            <h2>CONTACTO</h2> 
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="correo" placeholder="Correo" required>
+            <input type="text" name="telefono" placeholder="Telefono" required>
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+            <button type="button" name="ENVIAR" id="boton"  class="btn btn-default">Enviar</button>
+        </form>
+            </div>
+            <div class="container">
+            	<div div class="col-md-2 col-xs-12">
+                	<img class="icondir img-responsive animated shake center-block" src="img/Icono-direccion (1).png"><p class="text-center parraficon">Km 23 via a Daule "Diagonal al Zoo el Pantanal"</p></div>
+                <div div class="col-md-2 col-xs-12">
+                	<img class="iconcall img-responsive animated shake center-block" src="img/ICONO-TELÉFONO-300x300.png"><p class="text-center parraficon">2-267203 - 0980047913</p></div>
+                <div div class="col-md-2 col-xs-12">
+                	<img class="iconmail img-responsive animated shake center-block" src="img/Icono-dirección-correo.png"><p class="text-center parraficon">georgejerc@gmail.com</p></div>
+                <div class="col-md-6 col-xs-12 hidden-xs">
+                    <img src="img/map.PNG" class="img-responsive center-block map"/>
+                    </div>
+                </div>
+        </div>
+    </div>
+<!-- FIN DEL BLOQUE CONTACTO -->
+
+<!-- INICIO DEL BLOQUE REDES SOCIALES -->
+        <div id="social"  style="background-color:rgba(236, 240, 241, 1);opacity: 0.8; filter: alpha(opacity=100);">
+            <div class="container text-center">
+                <div class="hexagon class animated rotateIn center-block"><a href="https://www.facebook.com/georgejerc"><i class="fa fa-facebook"></i></a></div>
+                <div class="hexagon class animated rubberBand center-block"><a href="https://twitter.com/georgejerc"><i class="fa fa-twitter"></i></a></div>
+                <div class="hexagon class animated rubberBand center-block"><a href="https://plus.google.com/u/0/114356633821929859288"><i class="fa fa-google-plus"></i></a></div>
+                <div class="hexagon class animated rubberBand center-block"><a href="https://www.instagram.com/georgejerc/"><i class="fa fa-instagram"></i></a></div>
+                <div class="hexagon class animated rubberBand center-block"><a href="https://github.com/jorgerodriguezc"><i class="fa fa-github"></i></a></div>
+                <div class="hexagon class animated rotateIn center-block"><a href="https://www.dropbox.com/home"><i class="fa fa-dropbox"></i></a></div>
+            </div>
+        </div>
+<!-- FIN DEL BLOQUE REDES SOCIALES --> 
+      
+<!-- INICIO DEL BLOQUE DESARROLLADOR -->
+        <footer class="content-block content-block-dark">
+            <p class="parrfoot">&copy; Desarrollado por <a href="#" target="_blank"> Jorge Rodriguez</a></p>
+        </footer>  
+<!-- FIN DEL BLOQUE DESARROLLADOR -->          
+          
+        <script type="text/javascript" src="js/wowslider.mod.js"></script>
+        <script type="text/javascript" src="js/wowslider.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="reproductor-audio/amazingaudioplayer.js"></script>
+   		<script type="text/javascript" src="reproductor-audio/initaudioplayer-1.js"></script>
+        <script type="text/javascript" src="contenido-slide/amazingslider.js"></script>
+    	<script type="text/javascript" src="contenido-slide/initslider-1.js"></script>
+        <script type="text/javascript" src="bootstrap/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.gridder.min.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+
+                // Call Gridder
+                $(".gridder").gridderExpander({
+                    scrollOffset: 60,
+                    scrollTo: "panel", // "panel" or "listitem"
+                    animationSpeed: 400,
+                    animationEasing: "easeInOutExpo",
+                    onStart: function () {
+                        console.log("Gridder Inititialized");
+                    },
+                    onExpanded: function (object) {
+                        console.log("Gridder Expanded");
+                        $(".carousel").carousel();
+                    },
+                    onChanged: function (object) {
+                        console.log("Gridder Changed");
+                    },
+                    onClosed: function () {
+                        console.log("Gridder Closed");
+                    }
+                });
+            });
+        </script>
+
+
+    </body>
+</html>
